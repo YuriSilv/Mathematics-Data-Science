@@ -21,7 +21,7 @@ Definição Intuitiva: Em um plano contínuo representando uma função que pert
 
 
 Logo, devido a sua capacidade, os limites são úteis para enterdemos a tendência de uma função, por mais bizarra que ele possa ser. Por exemplo:
-![Exemplo de limite](imgs/evaluating-limits-using-a-graph.png)
+![Exemplo de limite](imgs/limites.png)
 
 ### 2.0 Statics {#2.0-statics}
 
