@@ -2,6 +2,9 @@
 
 - [Calculus](#1.0-calculus)
     - [Limits](#1.1-limits)
+    - [Limits Rules](#1.2-limits-rules)
+    - [Limits Infinity](#1.3-limits-infinity)
+    - [Derivatives](#1.4-derivatives)
 
 - [Statics and Probability](#2.0-statics)
     - 2.1 Descritive
@@ -10,18 +13,40 @@
     - 1.1
 
 
-### 1.0 Calculus {#1.0-calculus}
+## 1.0 Calculus {#1.0-calculus}
 Motivação: permite entender fenômenos importantes em um ambiente, como a velocidade instântanea de um objeto.
 Aplicado a ML e DL, podemos gerar "gradientes", que são uma forma de atingir uma otmização de uma equação. Ou seja, uma forma de aprender. 
 ![Exemplo Gradiente](https://poissonisfish.files.wordpress.com/2020/11/non-convex-optimization-we-utilize-stochastic-gradient-descent-to-find-a-local-optimum.jpg)
 
-#### 1.1 Limits {#1.1-limits}
+### 1.1 Limits {#1.1-limits}
 Definição Intuitiva: Em um plano contínuo representando uma função que pertence aos números reais, ou seja, pode abranger infinitos valores entre dois pontos específicos, o limite de uma função é dado como o resultado - ou talvez o comportamento - da função quando o valor de x se aproxima infinitamente de um ponto determinado. No exemplo abaixo, o limite de f(x) quando x tende a "a" é igual L
 \[ \lim_{x \to a} f(x) = L \]
 
 
 Logo, devido a sua capacidade, os limites são úteis para enterdemos a tendência de uma função, por mais bizarra que ele possa ser. Por exemplo:
 ![Exemplo de limite](imgs/limites.png)
+
+#### 1.2 Limits Rules {#1.2-limits-rules}
+-Distributiva: o limite pode ser distriuído na soma, subtração, multiplicação ou divisão de duas funções ou mais funções
+-Comutatividade sobre constantes: a constante que multiplica uma função em um limite pode ser colocada antes ou depois a execução do limite. Em essência, isso também é válido para a exponenciação e raízes.
+
+Em resumo:
+![limit rules](https://mathtuition88.files.wordpress.com/2022/05/image-13.png)
+
+#### 1.3 Limits Infinity {#1.3-limits-infinity}
+Na matemática, podem existir funções que tentam alcançar um valor, sempre se apróximando dele, mas nunca verdadeiramente o atingindo. 
+Por exemplo, a função 1/x tende sempre a buscar o valor 0, mas nunca de fato o toca.
+![Exemplo de limite](imgs/1sobrex.png)
+
+Disso, temos que \[\lim_{{x \to \infty}} \frac{1}{x} = 0\]
+Ou seja, quanto mais x cresce, mais próximo de 0 ele fica. Logo, ele tende ao infinito, que nunca será atingido, já que ele é infinito.
+
+De outra forma, podem existir funções que tendem ao infinito, resultando uma resposta infinita, e funções que tendem ao infinito, mas a resposta simplesmente não existem, como lim x→∞​ sin(x). Nesse último caso, isso ocorre porque a função seno oscila entre 1 e -1, então mesmo que x cresça infinitamente, ela não vai converger.
+
+Por fim, deve-se pontuar que existem infinitos negativos ou positivos, que devem ser usados conforme a função que se análisa. Além disso, certas operações com infinitos podem gerar números indeterminados (diferentes de não exister), por exemplo infinito/infinito.
+OBS: As vezes, é possível fugir desses números indeterminados fazendo manipulações nas fórmulas.
+
+### 1.4 Derivatives {#1.4-derivatives}
 
 ### 2.0 Statics {#2.0-statics}
 
