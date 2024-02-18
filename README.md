@@ -47,6 +47,20 @@ Por fim, deve-se pontuar que existem infinitos negativos ou positivos, que devem
 OBS: As vezes, é possível fugir desses números indeterminados fazendo manipulações nas fórmulas.
 
 ### 1.4 Derivatives {#1.4-derivatives}
+Imagine uma curva que represente algum fenômeno, como a velocidade não uniforme de um objeto. Podemos calcular a variação desse fenômeno definindo dois pontos e fazendo a divisão de sua diferença em seus eixos ((y2-y1)/(x2-x1)). Se aproximarmos o ponto mais distante (p2) do primeiro ponto (p1), a reta secante que antes tocava apenas dois pontos, tenderá a tocar somente um ponto.
+![Derivatives](https://www.math.net/img/a/calculus/limit-definition-of-a-derivative-1.png)
+Disso, podemos definir a derivada como o limite da aproximação da reta secante em um determinado ponto. Na prática a derivada nos retorna um vértice em um gráfico contínuo.
+A derivada de \( f(x) \) em relação a \( x \), denotada por \( f'(x) \) ou \( \frac{df}{dx} \), é definida como:
+
+\[ f'(x) = \lim_{{h \to 0}} \frac{f(x + h) - f(x)}{h} \]
+"h" tender a 0 significa que a distância entre os pontos tende a 0.
+No exemplo de um corpo em movimento, esse cálculo trará a velocidade instantânea.
+
+Deve-se pontuar que nem todas funções podem ser derivadas. Alguns exemplos que não podem ser derivados (by chat gpt):
+ - Descontinuidades: Uma função não deve ter descontinuidades abruptas para ser derivável. Descontinuidades podem ocorrer em pontos isolados ou ao longo de um intervalo.
+ - Pontos angulosos ou cúspides: A presença de pontos angulosos ou cúspides na curva da função pode indicar a falta de derivabilidade nesses pontos. Cúspides são pontos onde as retas mudam a difereção
+ - Assimetria extrema: Funções altamente assimétricas, especialmente aquelas com comportamento oscilante excessivo, podem apresentar dificuldades de derivabilidade em alguns pontos.
+ - Divisão por zero: Se a função envolve uma divisão por zero em algum ponto, a derivada pode não existir nesse ponto.
 
 ### 2.0 Statics {#2.0-statics}
 
