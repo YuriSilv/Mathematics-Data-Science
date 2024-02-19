@@ -5,6 +5,7 @@
     - [Limits Rules](#1.2-limits-rules)
     - [Limits Infinity](#1.3-limits-infinity)
     - [Derivatives](#1.4-derivatives)
+    - [Derivatives Example](#1.4.1-derivatives-example)
 
 - [Statics and Probability](#2.0-statics)
     - 2.1 Descritive
@@ -61,6 +62,10 @@ Deve-se pontuar que nem todas funções podem ser derivadas. Alguns exemplos que
  - Pontos angulosos ou cúspides: A presença de pontos angulosos ou cúspides na curva da função pode indicar a falta de derivabilidade nesses pontos. Cúspides são pontos onde as retas mudam a difereção
  - Assimetria extrema: Funções altamente assimétricas, especialmente aquelas com comportamento oscilante excessivo, podem apresentar dificuldades de derivabilidade em alguns pontos.
  - Divisão por zero: Se a função envolve uma divisão por zero em algum ponto, a derivada pode não existir nesse ponto.
+
+#### 1.4.1 Derivatives Example {#1.4.1-derivatives-example}
+![Derivatives with limites](https://useruploads.socratic.org/FtiQLgBqTGcPettrBV1n_limit%20definition1.png)
+Fonte: https://socratic.org/questions/how-do-you-find-the-derivative-using-limits-of-f-x-3x-2
 
 ### 2.0 Statics {#2.0-statics}
 
