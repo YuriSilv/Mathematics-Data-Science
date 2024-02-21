@@ -73,6 +73,15 @@ Fonte: https://socratic.org/questions/how-do-you-find-the-derivative-using-limit
 No python, para se calcular uma derivada, basta inputar um "h" muito próximo de 0 na fórmula do limite, que obteremos um valor aproximado satisfatório. Ou seja, não precisamos necessariamente descobrir qual é a função da derivada, apesar de que isso pode ajudar em alguma otmização.
 
 #### 1.5 Derivatives Rules {#1.5-derivatives-rules}
+As vezes as funções podem ser muito complicadas de serem resolvidos pela intuição de limite. Disso, foi percebido que existem regras que sempre se aplicam as derivadas, que podem servir de atalhos em suas resoluções. Essas regras são:
+![Derivatives rules](https://www.onlinemathlearning.com/image-files/basic-derivative-rules.png)
+Fonte: https://www.onlinemathlearning.com/derivative-rules.html
+
+![Derivatives rules example](https://www.geneseo.edu/~baldwin/math221/fall2019/derivativerules.png)
+Fonte:https://www.geneseo.edu/~baldwin/math221/fall2019/09-slash-18-basic-differentiation-rules.php
+
+Não é necessário decorar essas regras, apenas saber que elas existem e podem ser úteis para simplicar uma função.
+
 
 ### 2.0 Statics {#2.0-statics}
 
