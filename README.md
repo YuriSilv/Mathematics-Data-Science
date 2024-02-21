@@ -6,6 +6,8 @@
     - [Limits Infinity](#1.3-limits-infinity)
     - [Derivatives](#1.4-derivatives)
     - [Derivatives Example](#1.4.1-derivatives-example)
+    - [Derivatives Python](#1.4.2-derivatives-python)
+    - [Derivatives Rules](#1.5-derivatives-rules)
 
 - [Statics and Probability](#2.0-statics)
     - 2.1 Descritive
@@ -66,6 +68,11 @@ Deve-se pontuar que nem todas funções podem ser derivadas. Alguns exemplos que
 #### 1.4.1 Derivatives Example {#1.4.1-derivatives-example}
 ![Derivatives with limites](https://useruploads.socratic.org/FtiQLgBqTGcPettrBV1n_limit%20definition1.png)
 Fonte: https://socratic.org/questions/how-do-you-find-the-derivative-using-limits-of-f-x-3x-2
+
+#### 1.4.2 Derivatives Python {#1.4.2-derivatives-python}
+No python, para se calcular uma derivada, basta inputar um "h" muito próximo de 0 na fórmula do limite, que obteremos um valor aproximado satisfatório. Ou seja, não precisamos necessariamente descobrir qual é a função da derivada, apesar de que isso pode ajudar em alguma otmização.
+
+#### 1.5 Derivatives Rules {#1.5-derivatives-rules}
 
 ### 2.0 Statics {#2.0-statics}
 
