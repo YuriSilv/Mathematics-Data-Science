@@ -82,6 +82,15 @@ Fonte:https://www.geneseo.edu/~baldwin/math221/fall2019/09-slash-18-basic-differ
 
 Não é necessário decorar essas regras, apenas saber que elas existem e podem ser úteis para simplicar uma função.
 
+#### 1.5.1 Chain Rule {#1.5.1-chain-rule}
+
+Algumas funções podem precisar serem decompostas para se aplicar as regras acima. Tais funções muitas vezes vem em formato de funções compostas, que apresentam uma regra especial.
+Essa regra é conhecida como regra da cadeia, e permite transformar a função em multiplicações de derivadas, da composta sobre a interna. Exemplo:
+![Chain rule](https://www.a-levelmathstutor.com/images/calculus/chain_rule_03M.jpg)
+Fonte:https://www.a-levelmathstutor.com/chainrule.php
+
+Essa regra é interessante pois ela é muito utilizada em redes neurais. Já que uma rede neural é composta por um conjunto de funções compostas. Ou seja, dado uma entrada x que pecorrer f'(x1), f'(x2), ..., f(xn), temos o resultado y.
+
 
 ### 2.0 Statics {#2.0-statics}
 
