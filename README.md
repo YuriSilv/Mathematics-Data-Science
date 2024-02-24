@@ -91,6 +91,8 @@ Fonte:https://www.a-levelmathstutor.com/chainrule.php
 
 Essa regra é interessante pois ela é muito utilizada em redes neurais. Já que uma rede neural é composta por um conjunto de funções compostas. Ou seja, dado uma entrada x que pecorrer f'(x1), f'(x2), ..., f(xn), temos o resultado y.
 
+#### 1.5.2 Implicit Derivatives {#1.5.2-implicit-derivatives}
+Algumas funções vem em formato implicito, ou seja, o x e y estão do mesmo lado da igualdade.  Em outras palavras, você tem uma equação que relaciona duas ou mais variáveis, e pode não ser possível isolar uma variável em termos da outra explicitamente. Para calcular derivadas implícitas, deve-se trata uma variável como uma função da outra e, em seguida, diferencia a equação em relação à variável independente. Isso geralmente é feito usando a regra da cadeia. Exemplo: https://www.youtube.com/watch?v=GxI2-rZnfjs
 
 ### 2.0 Statics {#2.0-statics}
 
