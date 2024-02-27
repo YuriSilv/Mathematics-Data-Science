@@ -111,6 +111,11 @@ Para se encontrar esses min-max, alguns testes se aplicam durante a análise.
 Se f' muda de + para - (ou o contrário) em um ponto c, então f(c) é um mínimo local.
 ![First derivative teste](https://images.slideplayer.com/31/9732336/slides/slide_13.jpg)
 
+2º Teste:
+Se a derivada da derivada (f'') é maior que 0, então sua concavidade é voltada para cima - logo estamos tratandos de um mínimo-. Paralelamente, se f'' < 0, então temos uma concavidade para baixo e estamos lidados com um máximo.
+
+Se f'' = 0, pode ser um mínimo, máximo ou nenhum dos dois -inconclusivo- .
+
 ### 2.0 Statics {#2.0-statics}
 
 ### 3.0 Linear Algebra {#3.0-linear-algebra}
