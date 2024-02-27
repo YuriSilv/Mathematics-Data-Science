@@ -8,6 +8,7 @@
     - [Derivatives Example](#1.4.1-derivatives-example)
     - [Derivatives Python](#1.4.2-derivatives-python)
     - [Derivatives Rules](#1.5-derivatives-rules)
+    - [Min-Max](#1.6-derivatives-min-max)
 
 - [Statics and Probability](#2.0-statics)
     - 2.1 Descritive
@@ -99,6 +100,16 @@ Essa regra é interessante pois ela é muito utilizada em redes neurais. Já que
 
 #### 1.5.2 Implicit Derivatives {#1.5.2-implicit-derivatives}
 Algumas funções vem em formato implicito, ou seja, o x e y estão do mesmo lado da igualdade.  Em outras palavras, você tem uma equação que relaciona duas ou mais variáveis, e pode não ser possível isolar uma variável em termos da outra explicitamente. Para calcular derivadas implícitas, deve-se trata uma variável como uma função da outra e, em seguida, diferencia a equação em relação à variável independente. Isso geralmente é feito usando a regra da cadeia. Exemplo: https://www.youtube.com/watch?v=GxI2-rZnfjs
+
+#### 1.6 Derivatives Min-Max {#1.6-derivatives-min-max}
+Imagine um gráfico de uma função. Esse gráfico pode ter um ponto mais baixo ou um ponto mais alto em uma determinada coordenada - podendo, é claro, haver mais de um ponto alto e baixo ao mesmo tempo-. Através de derivadas podemos encontrar o ponto mínimo ou máximo de dessa ou outra função, algo que é bastante útil nos algoritmos de machine learning.
+
+Havendo mais de um max ou min, o menor mínimo/máximo é chamado de global mínimo/máximo, enquanto os outros menores são chamados de local mínimo/máximo - importante notar que algumas funções, como a seno, tem vários globais min/max -.
+
+Para se encontrar esses min-max, alguns testes se aplicam durante a análise.
+1º Teste:
+Se f' muda de + para - (ou o contrário) em um ponto c, então f(c) é um mínimo local.
+![First derivative teste](https://images.slideplayer.com/31/9732336/slides/slide_13.jpg)
 
 ### 2.0 Statics {#2.0-statics}
 
