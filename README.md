@@ -98,7 +98,10 @@ Fonte:https://www.a-levelmathstutor.com/chainrule.php
 
 Essa regra é interessante pois ela é muito utilizada em redes neurais. Já que uma rede neural é composta por um conjunto de funções compostas. Ou seja, dado uma entrada x que pecorrer f'(x1), f'(x2), ..., f(xn), temos o resultado y.
 
-#### 1.5.2 Implicit Derivatives {#1.5.2-implicit-derivatives}
+#### 1.5.2 Derivatives LHopital {#1.5.2-derivatives-lhopital}
+![lhopital](https://cdn1.byjus.com/wp-content/uploads/2020/02/l-hospital-formula.png)
+
+#### 1.5.3 Implicit Derivatives {#1.5.3-implicit-derivatives}
 Algumas funções vem em formato implicito, ou seja, o x e y estão do mesmo lado da igualdade.  Em outras palavras, você tem uma equação que relaciona duas ou mais variáveis, e pode não ser possível isolar uma variável em termos da outra explicitamente. Para calcular derivadas implícitas, deve-se trata uma variável como uma função da outra e, em seguida, diferencia a equação em relação à variável independente. Isso geralmente é feito usando a regra da cadeia. Exemplo: https://www.youtube.com/watch?v=GxI2-rZnfjs
 
 #### 1.6 Derivatives Min-Max {#1.6-derivatives-min-max}
@@ -115,6 +118,9 @@ Se f' muda de + para - (ou o contrário) em um ponto c, então f(c) é um mínim
 Se a derivada da derivada (f'') é maior que 0, então sua concavidade é voltada para cima - logo estamos tratandos de um mínimo-. Paralelamente, se f'' < 0, então temos uma concavidade para baixo e estamos lidados com um máximo.
 
 Se f'' = 0, pode ser um mínimo, máximo ou nenhum dos dois -inconclusivo- .
+
+Exemplo:
+![Example min-max derivative](https://i.ytimg.com/vi/pvLj1s7SOtk/sddefault.jpg)
 
 ### 2.0 Statics {#2.0-statics}
 
