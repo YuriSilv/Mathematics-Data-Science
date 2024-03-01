@@ -122,6 +122,12 @@ Se f'' = 0, pode ser um mínimo, máximo ou nenhum dos dois -inconclusivo- .
 Exemplo:
 ![Example min-max derivative](https://i.ytimg.com/vi/pvLj1s7SOtk/sddefault.jpg)
 
+#### 1.7 Derivatives Newtons Method {#1.7-derivatives-newtons-method}
+Um primeiro preludio dos algoritmos de otmização é o método de Newton's, que irá permiter fazer uma iteração sobre uma determinada função, a fim de encontrar qual o valor de f(x) quando ele é igual a 0, ou seja, quando x é 0.
+![Newtons Method](https://andymath.com/wp-content/uploads/2019/08/newtons-method-notes.jpg)
+
+Mais informações: https://www.youtube.com/watch?app=desktop&v=-5e2cULI3H8
+
 ### 2.0 Statics {#2.0-statics}
 
 ### 3.0 Linear Algebra {#3.0-linear-algebra}
