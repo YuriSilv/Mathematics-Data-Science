@@ -9,6 +9,8 @@
     - [Derivatives Python](#1.4.2-derivatives-python)
     - [Derivatives Rules](#1.5-derivatives-rules)
     - [Min-Max](#1.6-derivatives-min-max)
+    - [Newthon's Method](#1.7-derivatives-newtons-method)
+    - [Integrals](#1.8-Integrals)
 
 - [Statics and Probability](#2.0-statics)
     - 2.1 Descritive
@@ -127,6 +129,15 @@ Um primeiro preludio dos algoritmos de otmização é o método de Newton's, que
 ![Newtons Method](https://andymath.com/wp-content/uploads/2019/08/newtons-method-notes.jpg)
 
 Mais informações: https://www.youtube.com/watch?app=desktop&v=-5e2cULI3H8
+
+
+#### 1.8 Integrals{#1.8-Integrals}
+Essencialmente, integrais são o contrário das derivadas. Isso quer dizer que dado uma função já derivada, podemos voltar a sua versão original, fazendo o caminho inverso.
+Por exemplo, para derivarmos x^2, temos 2x. Ou seja, a integral de 2x é x^2 + c. Note que existe um termo "c" que é acoplado juntamente com a função. As vezes esse termo pode ser omitido, mas a ideia geral é que ele existe pois algumas constantes, quando estão sendo somadas, desaparecem da derivada, pois sua derivada é 0.
+
+Falando sobre suas aplicações, elas são diversas, como estatísticas e probabilidades, cadeias de markov, área de uma função, etc.
+O exemplo mais prático é a área sobre uma determinava curva de função. Podemos criar vários pontos imaginários ao longo da função que criam um range (x1-x), que traçados para baixo formam um retângulo. Se criarmos vários pontos e fazer um somátorio deles, teremos uma área apróximada da curva. Agora se criarmos infinitos intervalos de ponto(tender ao infinito), teremos a área exata daquela curva
+![Area sobre a curva](https://i.ytimg.com/vi/FsC3do74UIo/maxresdefault.jpg)
 
 ### 2.0 Statics {#2.0-statics}
 
