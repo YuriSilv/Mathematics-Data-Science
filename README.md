@@ -133,12 +133,32 @@ Mais informações: https://www.youtube.com/watch?app=desktop&v=-5e2cULI3H8
 
 #### 1.8 Integrals{#1.8-Integrals}
 Essencialmente, integrais são o contrário das derivadas. Isso quer dizer que dado uma função já derivada, podemos voltar a sua versão original, fazendo o caminho inverso.
-Por exemplo, para derivarmos x^2, temos 2x. Ou seja, a integral de 2x é x^2 + c. Note que existe um termo "c" que é acoplado juntamente com a função. As vezes esse termo pode ser omitido, mas a ideia geral é que ele existe pois algumas constantes, quando estão sendo somadas, desaparecem da derivada, pois sua derivada é 0.
+Por exemplo, para derivarmos x^2, temos 2x. Ou seja, a integral de 2x é x^2 + c. Note que existe um termo "c" que é acoplado juntamente com a função. As vezes esse termo pode ser omitido, mas a ideia geral é que ele existe pois algumas constantes, quando estão sendo somadas, desaparecem da derivada, pois sua derivada é 0. Isso ocorre em integrais *indefinidas*, que não tem um range predefinido (como indo de "a" até "b")
 
 Falando sobre suas aplicações, elas são diversas, como estatísticas e probabilidades, cadeias de markov, área de uma função, etc.
 O exemplo mais prático é a área sobre uma determinava curva de função. Podemos criar vários pontos imaginários ao longo da função que criam um range (x1-x), que traçados para baixo formam um retângulo. Se criarmos vários pontos e fazer um somátorio deles, teremos uma área apróximada da curva. Agora se criarmos infinitos intervalos de ponto(tender ao infinito), teremos a área exata daquela curva
 ![Area sobre a curva](https://i.ytimg.com/vi/FsC3do74UIo/maxresdefault.jpg)
 
+#### 1.8.1 Teorema Fundamental {#1.8.1-teorema-fundamental}
+O teorema fundamental 1 do Cálculo é uma forma de relacionar derivadas e integrais. Para tal:
+![Teorema 1](https://media.nagwa.com/605194347359/en/thumbnail_l.jpeg)
+
+Por sua vez, o segundo teorema, demostra um atalho para se resolver integrais. Em vez nos aproximarmos do infinito, podemos fazer uma subtração, o que economiza muito o processamento. Ele pode ser representado como:
+![Teorema 2](https://miro.medium.com/v2/resize:fit:1400/1*xXK2CDtdItq79-iaeCfDJQ.png)
+
+
+#### 1.8.2 Exemplos Integrais {#1.8.1-exemplos-integrais}
+Exemplo 01 - Integral Indefinida Continua:
+![Ex. 1](https://cdn1.byjus.com/wp-content/uploads/2018/11/maths/2016/06/03100536/Continuous-Integration.jpg)
+
+Exemplo 02 - Integral Definida:
+![Ex. 2](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMHEmoCGgZAjsSm8KlU2Ta8AaO2YTzxQQXR0RzKRy9X0C-iCsLrrGJ2-IFt27QTnXng5k&usqp=CAU)
+
+Exemplo 03: Usando substituição em U:
+![Ex. 3](https://qph.cf2.quoracdn.net/main-qimg-fc04b72c15e3f841a5f29cba12d5af12-pjlq)
+
+Exemplo 04: Aproximando do infinito (Nem sempre a área vai ser infinita):
+![Ex. 4](https://www.dummies.com/wp-content/uploads/205597.image0.png)
 ### 2.0 Statics {#2.0-statics}
 
 ### 3.0 Linear Algebra {#3.0-linear-algebra}
