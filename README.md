@@ -11,6 +11,7 @@
     - [Min-Max](#1.6-derivatives-min-max)
     - [Newthon's Method](#1.7-derivatives-newtons-method)
     - [Integrals](#1.8-Integrals)
+    - [Cálculo com Vetores]({#1.9-calculo-com-vetores})
 
 - [Statics and Probability](#2.0-statics)
     - 2.1 Descritive
@@ -159,6 +160,30 @@ Exemplo 03: Usando substituição em U:
 
 Exemplo 04: Aproximando do infinito (Nem sempre a área vai ser infinita):
 ![Ex. 4](https://www.dummies.com/wp-content/uploads/205597.image0.png)
+
+
+#### 1.9 Calculo com vetores {#1.9-calculo-com-vetores}
+Definição de vetores: uma medida quantitativa que tem direção e magnitude("força").
+É comum funções existirem com múltiplos inputs de entrada, como vetores. Isso pode resultar em um escalar (número com 1 dimessão) ou um vetor.
+
+#### 1.9.1 Derivadas parciais {#1.9.1-derivadas-parciais}
+É possível derivar uma função com múltiplas variáveis utilizando-se das derivadas parciais.
+Nela, se deriva cada variável separadamente, considerando as demais como constantes. Sua notação é um pouco diferente, como demonstrado abaixo, com as derivadas de x, y e z.
+![Ex. derivada parcial](https://math.info/image/255/partial_derivatives_ex.gif)
+
+Importante notar que as derivadas ainda mantém seu objetivo de origem, encontrar linhas tangentes. A diferença é que agora isso está sendo feito em um espaço n-dimensional.
+
+#### 1.9.2 Gradientes {#1.9.2-gradientes}
+Um gradiente é uma função multivariável que o output resulta em um escalar. Sua vantagem é que eles podem ser utilizado em métodos de otmização de funções complexas.
+Ele também pode ser visto como o vetor de derivadas parciais.
+![Gradiente formula](https://miro.medium.com/v2/resize:fit:1400/1*KIaYMmXnykZl_vjPUVjbyQ.png)
+
+O resultado dessas derivadas irá retornar um vetor que leva em direção ao valor que pode maximizar a função.
+
+Exemplo: https://www.youtube.com/watch?app=desktop&v=CbLkUxNv6Do
+
+Mais: https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/the-gradient
+
 ### 2.0 Statics {#2.0-statics}
 
 ### 3.0 Linear Algebra {#3.0-linear-algebra}
