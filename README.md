@@ -174,7 +174,7 @@ Nela, se deriva cada variável separadamente, considerando as demais como consta
 Importante notar que as derivadas ainda mantém seu objetivo de origem, encontrar linhas tangentes. A diferença é que agora isso está sendo feito em um espaço n-dimensional.
 
 #### 1.9.2 Gradientes {#1.9.2-gradientes}
-Um gradiente é uma função multivariável que o output resulta em um escalar. Sua vantagem é que eles podem ser utilizado em métodos de otmização de funções complexas.
+Um gradiente é uma função multivariável que o output resulta em um escalar (se o resultado for um vetor, ele será um jacobian, que é útil para processamentos de matrizes). Sua vantagem é que eles podem ser utilizado em métodos de otmização de funções complexas.
 Ele também pode ser visto como o vetor de derivadas parciais.
 ![Gradiente formula](https://miro.medium.com/v2/resize:fit:1400/1*KIaYMmXnykZl_vjPUVjbyQ.png)
 
