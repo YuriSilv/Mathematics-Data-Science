@@ -184,6 +184,10 @@ Exemplo: https://www.youtube.com/watch?app=desktop&v=CbLkUxNv6Do
 
 Mais: https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/the-gradient
 
+#### 1.9.3 Próximos passasos {#1.9.3-proximos-passos}
+Para avançar nos estudos dos gradientes e jacobians, precisamos entender alguns conceitos de algebra linear. Então aqui se encerra as ideias príncipais e *básicas* de cálculo necessário para machine learning.
+Importante notar que o cálculo aparece aqui mais como uma ferramenta para se aplicado as outras áreas da matemática (como estatística e algebra linear), então o estudo é continuo - mas já é possível ter uma ideia de como máquinas tendém a aprender, ou pelo menos, escolher melhor -.
+
 ### 2.0 Statics {#2.0-statics}
 
 ### 3.0 Linear Algebra {#3.0-linear-algebra}
